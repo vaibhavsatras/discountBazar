@@ -6,8 +6,8 @@ function Banner() {
     const[slideStatus,setSlideStatus] = useState(0)
     const Data = [
         "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Flip/CML/PC/V1/V2/PC_01.gif",
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Flip/CML/PC/V1/V2/PC_01.gif",
-        "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Flip/CML/PC/V1/V2/PC_01.gif"
+        "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Flip/CML/PC/V1/V2/PC_03.gif",
+        "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Flip/CML/PC/V1/V2/PC_06.gif"
     ]
 
     function prevSlide()
