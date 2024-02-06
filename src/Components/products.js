@@ -1,17 +1,21 @@
 import React, { useEffect, useState } from "react";
 import ProductsCart from "./productsCart";
+import { Data } from "./Data";
 
 function Products() {
     const [data,setData] = useState([])
     useEffect(()=>{
 
-        fetch('http://fakestoreapiserver.reactbd.com/products').then((response)=>{
+        // fetch('http://fakestoreapiserver.reactbd.com/products').then((response)=>{
 
-              return response.json()
-        }).then((result)=>{
+        //       return response.json()
+        // }).then((result)=>{
 
-            setData(result)
-        })
+        //     setData(result)
+        // })
+
+        setData(Data)
+
     },[])
     
   
